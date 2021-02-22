@@ -1,5 +1,5 @@
 let deleteGoogle = document.querySelector('.adv');
-deleteGoogle.classList.remove('adv');
+deleteGoogle.style.display = 'none';
 let books = document.querySelectorAll('.book');
 document.body.style.backgroundImage = "url(./image/you-dont-know-js.jpg)";
 books[0].insertAdjacentElement('beforebegin', books[1] );
